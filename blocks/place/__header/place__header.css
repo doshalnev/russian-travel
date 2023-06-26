@@ -1,0 +1,18 @@
+.place__header {
+  width: 460px;
+  max-height: 152px;
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.place__header_one-row {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 76px 460px;
+  grid-gap: 48px 40px;
+  margin-bottom: 80px;
+}
