@@ -1,0 +1,11 @@
+.cover__opacity {
+  width: 100%;
+  opacity: 0.800000011920929;
+  background: #2A2C2F;
+}
+
+.cover__opacity:hover {
+  width: 100%;
+  opacity: 0.300000011920929;
+  background: #2A2C2F;
+}

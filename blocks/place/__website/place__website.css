@@ -4,3 +4,13 @@
   width: 456px;
   height: 46px;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    align-self: auto;
+    margin: 0 0 32px 16px;
+  }
+}

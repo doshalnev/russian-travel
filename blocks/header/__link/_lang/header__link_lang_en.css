@@ -1,11 +1,40 @@
 .header__link_lang_en {
   text-decoration: none;
-  margin: 0;
-  width: 29px;
+  margin: 18px 0 0;
   height: 28px;
   line-height: 28px;
   font-size: 24px;
   color: #FFF;
   text-align: right;
   font-family: 'Inter';
+}
+
+@media screen and (max-width: 1024px) {
+  .header__link_lang_en {
+    margin-top: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__link_lang_en {
+    text-align: right;
+    font-size: 24px;
+    font-family: Inter;
+    line-height: 28px;
+    width: 30px;
+    height: 28px;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__link_lang_en {
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 20px;
+    text-align: right;
+    width: 22px;
+    height: 20px;
+    margin-top: 14px;
+  }
 }

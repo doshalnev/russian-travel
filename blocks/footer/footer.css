@@ -1,7 +1,24 @@
 .footer {
-  min-width: 186px;
-  max-width: 1184px;
+  width: 92.5%;
   min-height: 18px;
   max-height: 310px;
-  margin: 0 48px 24px;
+  margin: 0 auto 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: 720px;
+    margin: 88px auto 24px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 0 24px 16px;
+    max-width: 186px;
+    max-height: 310px;
+  }
+
 }

@@ -1,6 +1,5 @@
 .lead__image {
-  width: 984px;
-  height: 615px;
+  width: 100%;
   margin: 0 auto 8px auto;
   display: block;
   text-align: center;
