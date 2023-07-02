@@ -2,13 +2,10 @@
   width: 186px;
   margin: 0;
   float: right;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height, or 114% */
-
   display: inline;
   color: #FFFFFF;
 }

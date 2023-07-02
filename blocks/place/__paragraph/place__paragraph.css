@@ -1,0 +1,19 @@
+.place__paragraph {
+  margin: 0 0 26px;
+}
+
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    width: 288px;
+    margin: 32px auto 25px;
+  }
+
+  .place__paragraph:last-child {
+    margin: 0 auto;
+  }
+}

@@ -1,7 +1,5 @@
 .footer {
   width: 92.5%;
-  min-height: 18px;
-  max-height: 310px;
   margin: 0 auto 24px;
 }
 
@@ -18,7 +16,4 @@
     flex-direction: column;
     margin: 64px 0 24px 16px;
     max-width: 186px;
-    max-height: 310px;
   }
-
-}

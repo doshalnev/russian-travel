@@ -1,8 +1,6 @@
-.place__header {
+.place__title {
   width: 460px;
-  max-height: 152px;
   margin: 0;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -10,22 +8,22 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__header {
+  .place__title {
     width: 340px;
-    height: 92px;
-
-    font-size: 44px;
+    font-size: 42px;
     line-height: 46px;
   }
 
+  .place__title:first-child {
+    width: 330px;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .place__header {
+  .place__title {
     font-size: 32px;
     line-height: 35px;
     width: 288px;
-    height: 32px;
     margin: 0 0 32px 16px;
   }
 }

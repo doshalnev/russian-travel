@@ -2,7 +2,6 @@
   display: inline-block;
   align-self: flex-end;
   width: 456px;
-  height: 46px;
 }
 
 @media screen and (max-width: 320px) {
