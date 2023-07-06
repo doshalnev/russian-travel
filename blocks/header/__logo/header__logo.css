@@ -1,9 +1,21 @@
 .header__logo {
-  width: 176px;
+  width: 14.86%;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
   .header__logo {
-    width: 142px;
+    width: 18.97%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 24.44%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .header__logo {
+    width: 49.31%;
   }
 }

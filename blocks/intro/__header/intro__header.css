@@ -8,9 +8,9 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .intro__header {
-    width: 230px;
+    width: 100%;
     font-size: 32px;
     line-height: 35px;
   }

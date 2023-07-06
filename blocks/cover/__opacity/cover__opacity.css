@@ -1,7 +1,7 @@
 .cover__opacity {
   width: 100%;
   opacity: 0.800000011920929;
-  background: #2A2C2F;
+  z-index: 2;
 }
 
 .cover__opacity:hover {

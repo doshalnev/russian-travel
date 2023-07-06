@@ -3,25 +3,24 @@
   justify-content: space-between;
   width: 92.5%;
   margin: 28px auto 0;
-  white-space: nowrap;
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 928px;
+    width: 90.63%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    width: 720px;
-    margin: 28px 24px 0;
+    width: 93.75%;
+    margin: 28px auto 0;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .header {
-    width: 288px;
-    margin: 16px 16px 48px;
+    width: 90%;
+    margin: 16px auto 48px;
   }
 }

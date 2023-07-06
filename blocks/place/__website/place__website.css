@@ -1,14 +1,13 @@
 .place__website {
   display: inline-block;
   align-self: flex-end;
-  width: 456px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
   .place__website {
     display: flex;
     flex-direction: column;
-    width: 288px;
+    width: 90%;
     align-self: auto;
     margin: 0 0 32px 16px;
   }
