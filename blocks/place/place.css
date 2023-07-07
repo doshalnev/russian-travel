@@ -33,12 +33,13 @@
   .place:last-child {
     margin-bottom: 0;
   }
+}
 
-  @media screen and (max-width: 500px) {
-    .place {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      margin-bottom: 50px;
-    }
+@media screen and (max-width: 500px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 50px;
   }
+}

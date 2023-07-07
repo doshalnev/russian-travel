@@ -1,0 +1,19 @@
+.cover__overlay {
+  min-height: 740px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: .8;
+  background-image: url(../../../images/bg-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.cover__overlay:hover {
+  opacity: .3;
+  background-color: #2A2C2F;
+}
