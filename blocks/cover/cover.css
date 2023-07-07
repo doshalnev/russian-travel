@@ -1,12 +1,12 @@
 .cover {
-  width: 92.5%;
-  margin: 92px 3.75%;
+  width: 93.5%;
+  margin: 92px 2.25%;
   position: relative;
   display: inline-block;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1124px) {
   .cover {
     width: 100%;
     margin: 92px 0;

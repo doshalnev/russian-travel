@@ -4,7 +4,7 @@
 * Интро
 * Отличия второго от первого
 * Инструкция по применению 
-* [Ссылка на сайт](https://doshalnev.github.io/russian-travel/index.html)
+* [Ссылка на сайт](https://doshalnev.github.io/russian-travel/)
 
 **Интро**
 
