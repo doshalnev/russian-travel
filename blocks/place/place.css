@@ -2,10 +2,8 @@
   display: grid;
   grid-template-columns: 46.75% 49.18%;
   grid-template-rows: 23.03% 78.77%;
-  grid-gap: 2.27% 3.07%;
-  margin-bottom: 2.36%;
-  height: 18%;
-  overflow: hidden;
+  grid-gap: 4.27% 3.07%;
+  margin-bottom: 80px;
 }
 
 .place:last-child {

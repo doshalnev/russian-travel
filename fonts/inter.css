@@ -16,7 +16,6 @@
     url(./Inter-Bold.woff) format("woff");
 }
 
-
 @font-face {
   font-family: 'Inter';
   font-style: normal;
@@ -35,6 +34,7 @@ Usage:
     html { font-family: 'Inter var', sans-serif; }
   }
 */
+
 @font-face {
   font-family: 'Inter var';
   font-weight: 100 900;
@@ -43,7 +43,6 @@ Usage:
   font-named-instance: 'Regular';
   src: url(./Inter-roman.var.woff2) format("woff2");
 }
-
 
 /* --------------------------------------------------------------------------
 [EXPERIMENTAL] Multi-axis, single variable font.
@@ -58,6 +57,7 @@ explicitly, e.g.
   .italic { font-variation-settings: "slnt" 10deg }
 
 */
+
 @font-face {
   font-family: 'Inter var experimental';
   font-weight: 100 900;

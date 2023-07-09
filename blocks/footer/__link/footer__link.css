@@ -8,10 +8,13 @@
   color: #FFFFFF;
 }
 
+.footer__link:last-child {
+  margin: 0;
+}
+
 .footer__link:hover {
   opacity: 0.800000011920929;
 }
-
 
 @media screen and (max-width: 380px) {
   .footer__link {
