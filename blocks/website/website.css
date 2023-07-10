@@ -1,10 +1,10 @@
-.place__website {
+.website {
   display: inline-block;
   align-self: flex-end;
 }
 
 @media screen and (max-width: 500px) {
-  .place__website {
+  .website {
     display: flex;
     flex-direction: column;
     width: 90%;

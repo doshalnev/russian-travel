@@ -4,7 +4,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  vertical-align: bottom;
+  align-items: end;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,6 +19,6 @@
     font-size: 32px;
     line-height: 35px;
     width: 90%;
-    margin: 0 10px 32px;
+    margin: 0 10px 32px 18px;
   }
 }
