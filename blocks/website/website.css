@@ -1,12 +1,11 @@
 .website {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   align-self: flex-end;
 }
 
 @media screen and (max-width: 500px) {
   .website {
-    display: flex;
-    flex-direction: column;
     width: 90%;
     align-self: auto;
     margin: 0 0 32px 16px;

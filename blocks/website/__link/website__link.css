@@ -8,6 +8,6 @@
   color: white;
 }
 
-.place__website_link:hover {
+.website__link:hover {
   opacity: 0.8;
 }

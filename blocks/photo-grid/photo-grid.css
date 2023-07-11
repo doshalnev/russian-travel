@@ -22,20 +22,19 @@
   .photo-grid {
     width: 93.75%;
     height: 1664px;
-    display: grid;
     grid-template-columns: repeat(2, 48.89%);
     grid-template-rows: repeat(6, 15.87%);
     grid-gap: 1% 1.60%;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .photo-grid {
     display: flex;
     flex-direction: column;
     grid-gap: 12px;
     width: 90%;
-    height: 2724px;
-    margin: 0 auto 64px;
+    min-height: 2724px;
+    margin: 0 auto;
   }
 }
