@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 46.75% 49.18%;
   grid-gap: 8.4% 3.8%;
-  margin-bottom: 129px;
+  margin-bottom: 130px;
 }
 
 .place:last-child {
@@ -15,11 +15,11 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .place {
-    grid-template-columns: 45.8% 51%;
-    grid-gap: 8.4% 5.5%;
-    margin-bottom: 117px;
+    grid-template-columns: 47.1% 48%;
+    grid-gap: 8.3% 3.5%;
+    margin-bottom: 113px;
   }
 
   .place:last-child {
@@ -32,6 +32,6 @@
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-bottom: 75px;
+    margin-bottom: 73px;
   }
 }
