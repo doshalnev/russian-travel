@@ -16,13 +16,13 @@
   .footer {
     width: 93.75%;
     margin: 88px auto 24px auto;
-    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 750px) {
   .footer {
     width: 58.13%;
+    flex-direction: column;
     margin: 64px 0 24px 16px;
   }
 }
